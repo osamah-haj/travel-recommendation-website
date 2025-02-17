@@ -1,0 +1,82 @@
+body, html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url('ss.jpeg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    height: 100vh; /* Ensures the body height matches the viewport height */
+}
+nav {
+    display: flex;                 /* Enable Flexbox */
+    justify-content: space-between; /* Equal space between items */
+    align-items: center;           /* Center items vertically */
+    padding: 10px 20px;            /* Add some padding */
+    background-color: #f4f4f47d;     /* Optional: Add background color */
+  }
+nav > * {
+    display: inline-block;
+}
+nav ul {
+    list-style: none; 
+    padding: 0;       
+    margin: 0;      
+    font-size: large;
+  }
+  
+  nav ul li a {
+    text-decoration: none; 
+    color: inherit;        
+  }
+  
+ 
+  nav ul li {
+    display: inline; 
+    margin-right: 10px; 
+  }
+  form {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 450px;
+}
+.icon {
+    padding: 10px;
+    background-color: #f8f8f800;
+    border-right: 1px solid #ccc;
+}
+.icon i {
+    color: #555;
+}
+input[type="text"] {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+input[type="submit"],
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button {
+    background-color: #FF4D4D;
+    margin: 5px; 
+}
+input[type="submit"]:hover,
+button:hover {
+    opacity: 0.9;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
